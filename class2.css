@@ -1,0 +1,89 @@
+body{
+    overflow: hidden;
+}
+.block-card{
+    padding: 0px 16px;
+}
+.block-children{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.block-grandchildren{
+    width:650px;
+    height: 150px;
+    margin-right: 3px;
+    margin-left:3px;
+    border-radius: 12px;
+    background-color: #d9d9d9;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50px solid #006600
+}
+ h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.btn-4{
+    width: 100%;
+    height: 240px;
+    border-radius: 12px;
+    background-color: #d9d9d9;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50px solid #006600;
+    box-sizing: border-box;
+}
+.grey{
+    width: 99.5%;
+    height:1px;
+    border: 0.0px solid #e6e6e6;
+    background-color: #e6e6e6;
+    margin-top: 300px;
+}
+.line{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+.inputBlueBtn {
+    width: 90%;
+    height: 100px;
+}
+.redBtn {
+    width: 10%;
+    height: 100px;
+}
+input{
+    width: calc(100% - 200px);
+    border: 0px;
+    border-bottom: 2px solid #666666 ;
+    outline: none;
+}
+.paint{
+    padding:15px 50px 15px 50px ;
+    border-radius: 6px;
+    background-color:#3399ff;
+    font-size: 16px;
+    color:#666666;
+    border: none;
+
+}
+.paint1{
+    padding:15px 26px 15px 26px ;
+    border-radius: 6px;
+    background-color:#ff4d4d;
+    font-size: 16px;
+    color:white ;
+    border: none;
+    margin-right: 0px;
+}
+@media screen and (max-width: 1091px) {
+    input {
+        margin-right: 20%;
+    }
+}
